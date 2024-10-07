@@ -4,7 +4,7 @@ Riot API를 활용한 리그 오브 레전드 정보 앱입니다.<br/>
 <br/><br/>
 
 ## 🔗 배포 링크
-
+https://lol-dex-mu.vercel.app/
 <br/><br/>
 
 ## 🚩 프로젝트 개요
@@ -14,7 +14,7 @@ Riot API를 활용한 리그 오브 레전드 정보 앱입니다.<br/>
 
 ## 📦 프로젝트 파일 구조
 <details>
-  <summary><b>lol dex 파일 구조</b></summary>
+  <summary><b>LOL Dex 파일 구조</b></summary>
 
 ```
 📦lol-dex
