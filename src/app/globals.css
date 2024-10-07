@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #09090b;
+    --foreground: #ededed;
+    --primary: #c8aa6e;
+    --primary-hover: #d3bb8b;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #09090b;
+        --foreground: #ededed;
+    }
+}
+
+body {
+    color: var(--foreground);
+    background: var(--background);
+}
+
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.5;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+@layer components {
+    .title {
+        @apply text-3xl font-bold text-center text-primary mb-12;
+    }
+    .button {
+        @apply flex items-center justify-center px-4 py-3 bg-sky-500 hover:bg-sky-400 transition-all duration-500;
+    }
+    .card {
+        @apply h-full border border-zinc-800 p-6 hover:bg-zinc-900 transition-all duration-500;
+    }
+    .label {
+        @apply inline-block text-sm text-zinc-300 bg-zinc-700 px-2 py-1;
+    }
+}
